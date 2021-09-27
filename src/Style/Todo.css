@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.outer{
+    background-color: orangered;
+    width:370px;
+   min-height: 460px;
+    margin: 20px auto;
+    padding-top: 5px;
+    border-radius:10px;
+}
+.inner{
+    background-color: white;
+    width: 358px;
+    min-height: 450px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+}
+input{
+    width: 250px;
+    margin-top: 10px;
+    height: 25px;
+    border: 1px solid black;
+    padding: 10px;
+}
+img{
+    width:40px;
+    height: 40px;
+    margin-left: 0px;
+   
+    
+   
+   
+}
+label{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+}
+p{
+    align-self: center;
+    color: rgb(238, 22, 58);
+}
+.add{
+   display: flex;
+  justify-content: space-between;
+}
+.remove{
+    border-radius: 14px;
+    height: 20px;
+    width: 56px;
+    background-color: white;
+    padding: 1px 5px;
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    align-self: center;
+    margin-left: 5px;
+    
+    
+   
+}
+#addsign{
+    height: 25px;
+    background-color: white;
+    width: 30px;
+    font-size: large;
+}
+#clear{
+margin-bottom: 10px;
+padding: 2px;
+background-color: white;
+border-radius: 5px;
+
+}
+.list{
+    margin:10px auto;
+    margin:10px;
+    padding: 10px;
+}
+#updateinput{
+   width: 150px; 
+   
+}
+
+.editarea{
+    display: flex;
+    margin :5px auto;
+    justify-content:center ;
+    align-items: center;
+}
+.update{
+    border-radius: 14px;
+    height: 20px;
+    width: 56px;
+    padding: 1px 5px;
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.edit{
+    border-radius: 14px;
+    height: 20px;
+    width: 36px;
+    background-color: white;
+    padding: 1px 5px;
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    align-self: center;
+    
+   
+   
+}
+.butons{
+    display: flex;
+
+}
+#inputtext{
+   
+    width: 600px;
+    text-align: left;
+}
